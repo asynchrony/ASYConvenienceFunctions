@@ -1,19 +1,11 @@
-//
-//  ASYUIConvienceFunctionsTests.m
-//  ASYUIConvienceFunctionsTests
-//
-//  Created by dev1 on 6/18/15.
-//  Copyright (c) 2015 ASY. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface ASYUIConvienceFunctionsTests : XCTestCase
+@interface ASYUIConvenienceFunctionsTests : XCTestCase
 
 @end
 
-@implementation ASYUIConvienceFunctionsTests
+@implementation ASYUIConvenienceFunctionsTests
 
 - (void)setUp {
     [super setUp];

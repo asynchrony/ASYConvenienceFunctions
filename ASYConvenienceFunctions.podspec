@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
 
-  s.name         = "ASYConvienceFunctions"
+  s.name         = "ASYConvenienceFunctions"
   s.version      = "0.1.1"
-  s.summary      = "ASYConvienceFunctions pod"
+  s.summary      = "ASYConvenienceFunctions pod"
 
   s.description  = <<-DESC
-                   Convience Functions
+                   Convenience Functions
                    DESC
 
   s.homepage     = "http://asynchronylabs.com"
@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/exzibtx/ASYConvenienceFunctions", :tag => "0.1.1" }
 
-  s.source_files  = ASYConvienceFunctions/*.{h,m}"
-  s.exclude_files = "ASYConvienceFunctionsTests/*.{h,m}"
+  s.source_files  = "ASYConvenienceFunctions/*.{h,m}"
+  s.exclude_files = "ASYConvenienceFunctionsTests/*.{h,m}"
   s.ios.frameworks = "UIKit", "Foundation"
 
   s.requires_arc = true

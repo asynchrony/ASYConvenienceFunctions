@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5AE9B78A1B330778007E4A14 /* ASYConvienceFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE9B7891B330778007E4A14 /* ASYConvienceFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AE9B7901B330778007E4A14 /* ASYConvienceFunctions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE9B7841B330778007E4A14 /* ASYConvienceFunctions.framework */; };
-		5AE9B7971B330778007E4A14 /* ASYConvienceFunctionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE9B7961B330778007E4A14 /* ASYConvienceFunctionsTests.m */; };
+		5AE9B78A1B330778007E4A14 /* ASYConvenienceFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE9B7891B330778007E4A14 /* ASYConvenienceFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AE9B7901B330778007E4A14 /* ASYConvenienceFunctions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE9B7841B330778007E4A14 /* ASYConvenienceFunctions.framework */; };
+		5AE9B7971B330778007E4A14 /* ASYConvenienceFunctionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE9B7961B330778007E4A14 /* ASYConvenienceFunctionsTests.m */; };
 		5AE9B7A21B33083C007E4A14 /* ASYUIFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE9B7A01B33083C007E4A14 /* ASYUIFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AE9B7A31B33083C007E4A14 /* ASYUIFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE9B7A11B33083C007E4A14 /* ASYUIFunctions.m */; };
 /* End PBXBuildFile section */
@@ -25,12 +25,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5AE9B7841B330778007E4A14 /* ASYConvienceFunctions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASYConvienceFunctions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE9B7841B330778007E4A14 /* ASYConvenienceFunctions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASYConvenienceFunctions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE9B7881B330778007E4A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5AE9B7891B330778007E4A14 /* ASYConvienceFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASYConvienceFunctions.h; sourceTree = "<group>"; };
-		5AE9B78F1B330778007E4A14 /* ASYConvienceFunctionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASYConvienceFunctionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE9B7891B330778007E4A14 /* ASYConvenienceFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASYConvenienceFunctions.h; sourceTree = "<group>"; };
+		5AE9B78F1B330778007E4A14 /* ASYConvenienceFunctionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASYConvenienceFunctionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE9B7951B330778007E4A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5AE9B7961B330778007E4A14 /* ASYConvienceFunctionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASYConvienceFunctionsTests.m; sourceTree = "<group>"; };
+		5AE9B7961B330778007E4A14 /* ASYConvenienceFunctionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASYConvenienceFunctionsTests.m; sourceTree = "<group>"; };
 		5AE9B7A01B33083C007E4A14 /* ASYUIFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASYUIFunctions.h; sourceTree = "<group>"; };
 		5AE9B7A11B33083C007E4A14 /* ASYUIFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASYUIFunctions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AE9B7901B330778007E4A14 /* ASYConvienceFunctions.framework in Frameworks */,
+				5AE9B7901B330778007E4A14 /* ASYConvenienceFunctions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,8 +57,8 @@
 		5AE9B77A1B330778007E4A14 = {
 			isa = PBXGroup;
 			children = (
-				5AE9B7861B330778007E4A14 /* ASYConvienceFunctions */,
-				5AE9B7931B330778007E4A14 /* ASYConvienceFunctionsTests */,
+				5AE9B7861B330778007E4A14 /* ASYConvenienceFunctions */,
+				5AE9B7931B330778007E4A14 /* ASYConvenienceFunctionsTests */,
 				5AE9B7851B330778007E4A14 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,21 +66,21 @@
 		5AE9B7851B330778007E4A14 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5AE9B7841B330778007E4A14 /* ASYConvienceFunctions.framework */,
-				5AE9B78F1B330778007E4A14 /* ASYConvienceFunctionsTests.xctest */,
+				5AE9B7841B330778007E4A14 /* ASYConvenienceFunctions.framework */,
+				5AE9B78F1B330778007E4A14 /* ASYConvenienceFunctionsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5AE9B7861B330778007E4A14 /* ASYConvienceFunctions */ = {
+		5AE9B7861B330778007E4A14 /* ASYConvenienceFunctions */ = {
 			isa = PBXGroup;
 			children = (
 				5AE9B7A01B33083C007E4A14 /* ASYUIFunctions.h */,
 				5AE9B7A11B33083C007E4A14 /* ASYUIFunctions.m */,
-				5AE9B7891B330778007E4A14 /* ASYConvienceFunctions.h */,
+				5AE9B7891B330778007E4A14 /* ASYConvenienceFunctions.h */,
 				5AE9B7871B330778007E4A14 /* Supporting Files */,
 			);
-			path = ASYConvienceFunctions;
+			path = ASYConvenienceFunctions;
 			sourceTree = "<group>";
 		};
 		5AE9B7871B330778007E4A14 /* Supporting Files */ = {
@@ -91,13 +91,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5AE9B7931B330778007E4A14 /* ASYConvienceFunctionsTests */ = {
+		5AE9B7931B330778007E4A14 /* ASYConvenienceFunctionsTests */ = {
 			isa = PBXGroup;
 			children = (
-				5AE9B7961B330778007E4A14 /* ASYConvienceFunctionsTests.m */,
+				5AE9B7961B330778007E4A14 /* ASYConvenienceFunctionsTests.m */,
 				5AE9B7941B330778007E4A14 /* Supporting Files */,
 			);
-			path = ASYConvienceFunctionsTests;
+			path = ASYConvenienceFunctionsTests;
 			sourceTree = "<group>";
 		};
 		5AE9B7941B330778007E4A14 /* Supporting Files */ = {
@@ -116,16 +116,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AE9B7A21B33083C007E4A14 /* ASYUIFunctions.h in Headers */,
-				5AE9B78A1B330778007E4A14 /* ASYConvienceFunctions.h in Headers */,
+				5AE9B78A1B330778007E4A14 /* ASYConvenienceFunctions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5AE9B7831B330778007E4A14 /* ASYConvienceFunctions */ = {
+		5AE9B7831B330778007E4A14 /* ASYConvenienceFunctions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AE9B79A1B330778007E4A14 /* Build configuration list for PBXNativeTarget "ASYConvienceFunctions" */;
+			buildConfigurationList = 5AE9B79A1B330778007E4A14 /* Build configuration list for PBXNativeTarget "ASYConvenienceFunctions" */;
 			buildPhases = (
 				5AE9B77F1B330778007E4A14 /* Sources */,
 				5AE9B7801B330778007E4A14 /* Frameworks */,
@@ -136,14 +136,14 @@
 			);
 			dependencies = (
 			);
-			name = ASYConvienceFunctions;
+			name = ASYConvenienceFunctions;
 			productName = ASYConvienceFunctions;
-			productReference = 5AE9B7841B330778007E4A14 /* ASYConvienceFunctions.framework */;
+			productReference = 5AE9B7841B330778007E4A14 /* ASYConvenienceFunctions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5AE9B78E1B330778007E4A14 /* ASYConvienceFunctionsTests */ = {
+		5AE9B78E1B330778007E4A14 /* ASYConvenienceFunctionsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AE9B79D1B330778007E4A14 /* Build configuration list for PBXNativeTarget "ASYConvienceFunctionsTests" */;
+			buildConfigurationList = 5AE9B79D1B330778007E4A14 /* Build configuration list for PBXNativeTarget "ASYConvenienceFunctionsTests" */;
 			buildPhases = (
 				5AE9B78B1B330778007E4A14 /* Sources */,
 				5AE9B78C1B330778007E4A14 /* Frameworks */,
@@ -154,9 +154,9 @@
 			dependencies = (
 				5AE9B7921B330778007E4A14 /* PBXTargetDependency */,
 			);
-			name = ASYConvienceFunctionsTests;
+			name = ASYConvenienceFunctionsTests;
 			productName = ASYConvienceFunctionsTests;
-			productReference = 5AE9B78F1B330778007E4A14 /* ASYConvienceFunctionsTests.xctest */;
+			productReference = 5AE9B78F1B330778007E4A14 /* ASYConvenienceFunctionsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -176,7 +176,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5AE9B77E1B330778007E4A14 /* Build configuration list for PBXProject "ASYConvienceFunctions" */;
+			buildConfigurationList = 5AE9B77E1B330778007E4A14 /* Build configuration list for PBXProject "ASYConvenienceFunctions" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +188,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5AE9B7831B330778007E4A14 /* ASYConvienceFunctions */,
-				5AE9B78E1B330778007E4A14 /* ASYConvienceFunctionsTests */,
+				5AE9B7831B330778007E4A14 /* ASYConvenienceFunctions */,
+				5AE9B78E1B330778007E4A14 /* ASYConvenienceFunctionsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AE9B7971B330778007E4A14 /* ASYConvienceFunctionsTests.m in Sources */,
+				5AE9B7971B330778007E4A14 /* ASYConvenienceFunctionsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +233,7 @@
 /* Begin PBXTargetDependency section */
 		5AE9B7921B330778007E4A14 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5AE9B7831B330778007E4A14 /* ASYConvienceFunctions */;
+			target = 5AE9B7831B330778007E4A14 /* ASYConvenienceFunctions */;
 			targetProxy = 5AE9B7911B330778007E4A14 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -337,7 +337,7 @@
 				INFOPLIST_FILE = ASYConvienceFunctions/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ASYConvenienceFunctions;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -352,7 +352,7 @@
 				INFOPLIST_FILE = ASYConvienceFunctions/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ASYConvenienceFunctions;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -370,7 +370,7 @@
 				);
 				INFOPLIST_FILE = ASYConvienceFunctionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ASYConvenienceFunctionsTests;
 			};
 			name = Debug;
 		};
@@ -383,14 +383,14 @@
 				);
 				INFOPLIST_FILE = ASYConvienceFunctionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ASYConvenienceFunctionsTests;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5AE9B77E1B330778007E4A14 /* Build configuration list for PBXProject "ASYConvienceFunctions" */ = {
+		5AE9B77E1B330778007E4A14 /* Build configuration list for PBXProject "ASYConvenienceFunctions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5AE9B7981B330778007E4A14 /* Debug */,
@@ -399,7 +399,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AE9B79A1B330778007E4A14 /* Build configuration list for PBXNativeTarget "ASYConvienceFunctions" */ = {
+		5AE9B79A1B330778007E4A14 /* Build configuration list for PBXNativeTarget "ASYConvenienceFunctions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5AE9B79B1B330778007E4A14 /* Debug */,
@@ -408,7 +408,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AE9B79D1B330778007E4A14 /* Build configuration list for PBXNativeTarget "ASYConvienceFunctionsTests" */ = {
+		5AE9B79D1B330778007E4A14 /* Build configuration list for PBXNativeTarget "ASYConvenienceFunctionsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5AE9B79E1B330778007E4A14 /* Debug */,
